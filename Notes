@@ -49,8 +49,11 @@ Then admin user is successfully logged in
 
 scenario - every scenario is considered as one test case
 
+why we don't need system.setproperty() -  "driver/chromedriver.exe"
+if the path is incorrect to webdriver - it will fail, path is limited to one machine
+many time it is not compatible with browser
 
-
+we use webdrivermanager from now onwards
 
 
 
